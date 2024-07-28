@@ -1,0 +1,23 @@
+.about-section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -2.5rem;
+  z-index: 1;
+}
+
+.about-card {
+  height: auto !important;
+  background: #F4F5F8;
+  transition: .5s;
+  -webkit-box-shadow: -3px 17px 15px 5px rgba(181,181,181,0.75);
+  -moz-box-shadow: -3px 17px 15px 5px rgba(181,181,181,0.75);
+  box-shadow: -3px 17px 15px 5px rgba(181,181,181,0.75);
+  border-radius: 5px;
+}
+
+.about-card:hover {
+  transform: scale(1.02);
+}

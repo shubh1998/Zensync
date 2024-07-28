@@ -1,0 +1,59 @@
+.footer-company-name, .footer-link {
+  transition: .4s;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.footer-company-name:hover, .footer-link:hover {
+  color: var(--primary-red) !important;
+  text-decoration: none !important;
+}
+
+.footer-list-icon {
+  color: var(--primary-red) !important;
+}
+
+.ph-getconnect-sec {
+  background-image: url('../../../assets/images/footer/green-banner.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+  background-size: cover;
+}
+
+.ph-getconnect-content {
+  color: var(--white);
+  font-weight: 400;
+}
+
+.ph-getconnect-btn {
+  text-align: end;
+}
+
+.ph-btn-white {
+  background: var(--white);
+  color: #000000;
+  border: 1px solid var(--white);
+}
+
+.ph-btn {
+  display: inline-block;
+  min-width: 140px;
+  text-transform: capitalize;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--ph-font-family);
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50px;
+  transition: all 0.3s;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  position: relative;
+  z-index: 1;
+  border: none;
+  line-height: normal;
+}

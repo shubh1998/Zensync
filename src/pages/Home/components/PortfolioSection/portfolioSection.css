@@ -1,0 +1,99 @@
+.btn-view-project {
+  border: 1px solid var(--primary-red);
+  background: linear-gradient(to left, var(--white) 50%, var(--primary-red) 50%) right;
+  background-size: 200% 100%;
+  color: var(--primary-red);
+  font-size: 1rem;
+  transition: .3s ease-in-out;
+}
+
+.btn-view-all-project {
+  background: linear-gradient(to left, var(--primary-red) 50%, var(--primary-blue) 50%) right;
+  background-size: 210% 100%;
+  color: var(--white);
+  font-size: 1rem;
+  transition: .3s ease-in-out;
+  border: none;
+}
+
+.btn-view-project:hover, .btn-view-all-project:hover {
+  background-position: left;
+  color: var(--white);
+}
+
+.project-image-cover {
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-image-cover {
+  height: 270px;
+  width: 100%;
+  max-height: 400px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.text-wrap-10 {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-wrap-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project-card {
+  box-shadow: 0px 10px 16px 0 RGB(11 2 28/6%);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.zoom-in-image {
+  transition: .3s ease-in-out;
+}
+
+.zoom-in-image:hover {
+  scale: 1.1;
+}
+
+.read-more-portfolio {
+  color: var(--primary-blue);
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.read-more-portfolio span:hover {
+  text-underline-position: under;
+  text-decoration: underline wavy var(--primary-red);
+}
+
+.read-more-portfolio:hover {
+  color: var(--primary-red);
+}
+
+.shine {
+  -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.4) 50%,#000 75%);
+  mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.4) 50%,#000 75%);
+  -webkit-mask-size: 800%;
+  mask-size: 800%;
+  -webkit-mask-position: 0;
+  mask-position: 0;
+}
+
+.shine:hover {
+  transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+  -webkit-mask-position: 120%;
+  mask-position: 120%;
+  opacity: 1;
+}
