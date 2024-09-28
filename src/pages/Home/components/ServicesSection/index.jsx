@@ -4,7 +4,7 @@ import {
   AppDevelopmentImage, HireRemoteDevelopersImage, MvpImage,
   SoftwareDevelopmentImage, WebDesignImage
 } from 'assets/images/index'
-import { HOME_PAGE_SECTION_IDS } from 'constants/index'
+import { HOME_PAGE_SECTION_IDS } from 'constants/routes.constants'
 
 const ServicesSection = () => {
   const services = [

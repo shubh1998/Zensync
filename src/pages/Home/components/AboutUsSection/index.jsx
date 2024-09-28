@@ -1,4 +1,4 @@
-import { HOME_PAGE_SECTION_IDS } from 'constants/index'
+import { HOME_PAGE_SECTION_IDS } from 'constants/routes.constants'
 import './aboutUsSection.css'
 import { AboutImage } from 'assets/images/index'
 
@@ -16,7 +16,7 @@ const AboutUsSection = () => {
                 <img className='w-75 mb-4 mb-lg-0' src={AboutImage} alt='about us' />
               </div>
               <div className='col-lg-6'>
-                <h1 className='text-uppercase text-primary-red mb-4'>Best Web & Mobile App Development Company</h1>
+                <h1 className='text-uppercase text-primary-red mb-4'>Best Web, Game & Mobile App Development Company</h1>
                 <h5 className='text-uppercase text-primary-blue mb-3'>
                   Welcome to ZenSync Solutions - Your Gateway to Innovative Digital Excellence!
                 </h5>
@@ -29,8 +29,8 @@ const AboutUsSection = () => {
                   Since the beginning of the digital ecosystem, Zensync Solution has been at the top of brand strategy,
                   digital innovation, and operational excellence as a seasoned builder of mobile & web solutions.
                   By building target customers, potential numbers, and unified quality of work, Zensync Solutions has
-                  become one of the top mobile & web development company and the right destination to achieve positive
-                  outcomes.
+                  become one of the favorite mobile & web development company and the right destination to achieve
+                  positive outcomes.
                 </p>
               </div>
             </div>

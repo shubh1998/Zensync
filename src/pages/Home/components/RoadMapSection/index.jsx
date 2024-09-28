@@ -1,5 +1,5 @@
 import { BrandLogoImage } from 'assets/images/index'
-import { HOME_PAGE_SECTION_IDS } from 'constants/index'
+import { HOME_PAGE_SECTION_IDS } from 'constants/routes.constants'
 
 const RoadMapSection = () => {
   return (

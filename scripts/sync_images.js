@@ -26,7 +26,7 @@ for (const filename of filenames) {
     continue
   }
 
-  const imageName = pieces.reverse().slice(0, pieces.length - 1).map(piece => pascalize(piece)).join('') + 'Image'
+  const imageName = pieces.reverse().slice(0, 1).map(piece => pascalize(piece)).join('') + 'Image'
   imagesImportedName.push(imageName)
 
   fs.appendFile(

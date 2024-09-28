@@ -22,33 +22,11 @@
 }
 
 .project-image-cover {
-  height: 100%;
-  width: 100%;
-  max-height: 400px;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-.portfolio-image-cover {
   height: 270px;
   width: 100%;
   max-height: 400px;
   max-width: 100%;
   object-fit: cover;
-}
-
-.text-wrap-10 {
-  display: -webkit-box;
-  -webkit-line-clamp: 10;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.text-wrap-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .project-card {
@@ -66,19 +44,19 @@
   scale: 1.1;
 }
 
-.read-more-portfolio {
+.read-more-project {
   color: var(--primary-blue);
   transition: .2s ease-in-out;
   cursor: pointer;
   text-decoration: none;
 }
 
-.read-more-portfolio span:hover {
+.read-more-project span:hover {
   text-underline-position: under;
   text-decoration: underline wavy var(--primary-red);
 }
 
-.read-more-portfolio:hover {
+.read-more-project:hover {
   color: var(--primary-red);
 }
 

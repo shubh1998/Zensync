@@ -14,9 +14,11 @@ export const ROUTE_PATHS = Object.freeze({
     WEB_DEVELOPMENT: '/services/web-development',
     MOBILE_APP_DEVELOPMENT: '/services/mobile-app-development',
     UI_UX_DEVELOPMENT: '/services/ui-ux-development',
+    LIVE_CASINO_SPORTS_BOOK: '/services/live-casino-and-sportsbook',
+    CASINO_GAME_DEVELOPMENT: '/services/casino-game-development',
     MVP_DEVELOPMENT: '/services/mvp-development',
-    PRODUCT_DEVELOPMENT: '/services/product-development',
-    DEDICATED_DEVELOPERS: '/services/dedicated-developers',
+    CUSTOM_SOFTWARE_DEVELOPMENT: '/services/custom-software-development',
+    HIRE_DEDICATED_DEVELOPERS: '/services/hire-dedicated-developers',
     E_COMMERCE_DEVELOPMENT: '/services/e-commerce-development'
   },
   PORTFOLIO: '/portfolio',
@@ -25,7 +27,7 @@ export const ROUTE_PATHS = Object.freeze({
     FOOD_ORDER_APP: '/solutions/food-order-application',
     EMPLOYEE_MANAGEMENT_APP: '/solutions/employee-management-application',
     TAXI_BOOKING_APP: '/solutions/taxi-booking-application',
-    CUSTOM_GAMES: '/solutions/igaming-custom-betting-games-development',
+    IGAMING_CUSTOM_GAME_DEVELOPMENT: '/solutions/igaming-custom-betting-games-development',
     FANTASY_APP: '/solutions/fantasy-app-development',
     E_LEARNING_APP: '/solutions/e-learning-application',
     LOTTERY_APP: '/solutions/lottery-application-development'
@@ -50,11 +52,6 @@ export const NAVIGATION_OPTIONS = [
         id: uuidV4(),
         route: ROUTE_PATHS.ABOUT_US.CAREERS,
         name: 'Careers'
-      },
-      {
-        id: uuidV4(),
-        route: ROUTE_PATHS.ABOUT_US.TEAM,
-        name: 'Meet The Team'
       }
     ]
   },
@@ -80,18 +77,28 @@ export const NAVIGATION_OPTIONS = [
       },
       {
         id: uuidV4(),
+        route: ROUTE_PATHS.SERVICES.LIVE_CASINO_SPORTS_BOOK,
+        name: 'Live Casino and SportsBook'
+      },
+      {
+        id: uuidV4(),
+        route: ROUTE_PATHS.SERVICES.CASINO_GAME_DEVELOPMENT,
+        name: 'Casino Game Development'
+      },
+      {
+        id: uuidV4(),
         route: ROUTE_PATHS.SERVICES.MVP_DEVELOPMENT,
         name: 'MVP Development'
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SERVICES.PRODUCT_DEVELOPMENT,
-        name: 'Product Development'
+        route: ROUTE_PATHS.SERVICES.CUSTOM_SOFTWARE_DEVELOPMENT,
+        name: 'Custom Software Development'
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SERVICES.DEDICATED_DEVELOPERS,
-        name: 'Dedicated Developers'
+        route: ROUTE_PATHS.SERVICES.HIRE_DEDICATED_DEVELOPERS,
+        name: 'Hire Dedicated Developers'
       },
       {
         id: uuidV4(),
@@ -108,13 +115,7 @@ export const NAVIGATION_OPTIONS = [
   },
   {
     id: uuidV4(),
-    route: ROUTE_PATHS.HOW_WE_WORK,
-    name: 'How We Work',
-    subMenus: []
-  },
-  {
-    id: uuidV4(),
-    route: ROUTE_PATHS.SOLUTIONS.CUSTOM_GAMES,
+    route: ROUTE_PATHS.SOLUTIONS.FOOD_ORDER_APP,
     name: 'Solutions',
     subMenus: [
       {
@@ -149,10 +150,16 @@ export const NAVIGATION_OPTIONS = [
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.CUSTOM_GAMES,
+        route: ROUTE_PATHS.SOLUTIONS.IGAMING_CUSTOM_GAME_DEVELOPMENT,
         name: 'IGaming Custom Game Development'
       }
     ]
+  },
+  {
+    id: uuidV4(),
+    route: ROUTE_PATHS.HOW_WE_WORK,
+    name: 'How We Work',
+    subMenus: []
   },
   {
     id: uuidV4(),
@@ -173,39 +180,3 @@ export const HOME_PAGE_SECTION_IDS = {
   TECHNOLOGIES: 'technologies-section',
   ROADMAP: 'roadmap-section'
 }
-
-/* ==========================================================================
-    HOME PAGE SCROLL ANIMATION SECTION IDS FOR NAVIGATION
-  ========================================================================== */
-export const NAVIGATION_SCROLL_OPTIONS = [
-  {
-    id: uuidV4(),
-    sectionId: HOME_PAGE_SECTION_IDS.ABOUT,
-    name: 'About Us'
-  },
-  {
-    id: uuidV4(),
-    sectionId: HOME_PAGE_SECTION_IDS.SERVICES,
-    name: 'Services'
-  },
-  {
-    id: uuidV4(),
-    sectionId: HOME_PAGE_SECTION_IDS.PORTFOLIO,
-    name: 'Portfolio'
-  },
-  {
-    id: uuidV4(),
-    sectionId: HOME_PAGE_SECTION_IDS.ROADMAP,
-    name: 'How We Work'
-  },
-  {
-    id: uuidV4(),
-    sectionId: HOME_PAGE_SECTION_IDS.TECHNOLOGIES,
-    name: 'Technologies'
-  },
-  {
-    id: uuidV4(),
-    sectionId: HOME_PAGE_SECTION_IDS.CONTACT,
-    name: 'Contact Us'
-  }
-]

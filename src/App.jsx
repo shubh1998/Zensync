@@ -1,16 +1,15 @@
-import NavBar from 'components/layouts/NavBar/index'
-import Home from './pages/Home/index'
-import BackToTop from 'components/molecules/BackToTop/index'
-import Footer from 'components/layouts/Footer/index'
+import ErrorBoundary from 'components/layouts/ErrorBoundary/index'
+import Loader from 'components/molecules/Loader/index'
+import { Suspense } from 'react'
+import Routes from 'routes/index'
 
 const App = () => {
   return (
-    <>
-      <NavBar />
-      <Home />
-      <Footer />
-      <BackToTop />
-    </>
+    <Suspense fallback={<Loader />}>
+      <ErrorBoundary>
+        <Routes />
+      </ErrorBoundary>
+    </Suspense>
   )
 }
 

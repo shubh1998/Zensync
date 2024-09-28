@@ -1,0 +1,25 @@
+.navbar-shimmer-div {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-45deg, #979797 40%, #c1c1c1 50%, #d6d6d6 60%);
+  background-size: 300%;
+  background-position-x: 100%;
+  animation: shimmer 1s infinite linear;
+  height: 12vh;
+}
+
+.body-content-div {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-45deg, #979797 40%, #c1c1c1 50%, #d6d6d6 60%);
+  background-size: 300%;
+  background-position-x: 100%;
+  animation: shimmer 1s infinite linear;
+  height: 87vh;
+}
+
+@keyframes shimmer {
+  to {
+     background-position-x: 0%
+  }
+}

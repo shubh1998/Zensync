@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
+}
+
+.coming-soon-wrapper {
+  text-align: center;
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  margin: 10%
+}
+
+.coming-soon-wrapper h1 {
+  color: var(--primary);
+}
+
+.coming-soon-wrapper .dot {
+  color: var(--primary);
+}

@@ -1,0 +1,47 @@
+.project-details-section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  z-index: 1;
+}
+
+.project-details-card {
+  /* height: auto !important;
+  background: #F4F5F8;
+  transition: .5s;
+  -webkit-box-shadow: -3px 17px 15px 5px rgba(181,181,181,0.75);
+  -moz-box-shadow: -3px 17px 15px 5px rgba(181,181,181,0.75);
+  box-shadow: -3px 17px 15px 5px rgba(181,181,181,0.75);
+  border-radius: 5px; */
+  background-color: var(--white);
+}
+
+/* .project-details-card:hover {
+  transform: scale(1.02);
+} */
+
+
+.btn-visit {
+  border: 1px solid var(--primary-red);
+  background: linear-gradient(to left, var(--white) 50%, var(--primary-red) 50%) right;
+  background-size: 200% 100%;
+  color: var(--primary-red);
+  font-size: 1rem;
+  transition: .3s ease-in-out;
+}
+
+.btn-visit-animate {
+  background: linear-gradient(to left, var(--primary-red) 50%, var(--primary-blue) 50%) right;
+  background-size: 210% 100%;
+  color: var(--white);
+  font-size: 1rem;
+  transition: .3s ease-in-out;
+  border: none;
+}
+
+.btn-visit:hover, .btn-visit-animate:hover {
+  background-position: left;
+  color: var(--white);
+}

@@ -1,5 +1,5 @@
+import { ROUTE_PATHS } from 'constants/routes.constants'
 import './footer.css'
-import { ROUTE_PATHS } from 'constants/index'
 import { v4 as uuidV4 } from 'uuid'
 
 const Footer = () => {

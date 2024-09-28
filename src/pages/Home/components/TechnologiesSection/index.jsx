@@ -1,7 +1,7 @@
 import './technologySection.css'
 import { useState } from 'react'
-import { HOME_PAGE_SECTION_IDS } from 'constants/index'
-import { TECHNOLOGIES_TABS_WITH_TECH_STACK } from './constants'
+import { HOME_PAGE_SECTION_IDS } from 'constants/routes.constants'
+import { TECHNOLOGIES_TABS_WITH_TECH_STACK } from 'constants/technologies.constants'
 
 const TechnologiesSection = () => {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)

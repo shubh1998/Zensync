@@ -223,6 +223,10 @@ select {
   word-wrap: normal;
 }
 
+button a, button a:hover {
+  text-decoration: none;
+}
+
 button,
 [type="button"],
 [type="reset"],
@@ -634,4 +638,26 @@ mark,
 
 .bg-primary-red {
   background-color: var(--primary-red) !important;
+}
+
+
+.text-wrap-10 {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-wrap-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-wrap-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

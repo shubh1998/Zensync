@@ -1,4 +1,4 @@
-import { HOME_PAGE_SECTION_IDS } from 'constants/index'
+import { HOME_PAGE_SECTION_IDS } from 'constants/routes.constants'
 import './heroSection.css'
 import { handleScrollToSectionById } from 'helpers/app.helpers'
 import { HeaderBannerIconImage } from 'assets/images/index'

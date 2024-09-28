@@ -1,10 +1,9 @@
 .hero {
   background-color: var(--primary-blue);
   position: relative;
-  height: 80vh;
+  height: 100%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 5rem;
 }
 
 @media all and (max-width: 990px) {
