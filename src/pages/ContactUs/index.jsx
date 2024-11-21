@@ -1,10 +1,10 @@
 import ContactForm from 'components/molecules/ContactForm/index'
-import BannerHeading from 'components/molecules/BannerHeading/index'
+import AnimatedBreadcrumbsBanner from 'components/molecules/AnimatedBreadcrumbsBanner/index'
 
 const ContactUsPage = () => {
   return (
     <>
-      <BannerHeading heading='Contact Us' toText='Contact' />
+      <AnimatedBreadcrumbsBanner heading='Contact Us' toText='Contact' />
 
       <div className='container-fluid py-5 px-0'>
         {/* <h1 className='display-4 text-uppercase text-center mt-5 mb-5'>Contact Us</h1> */}

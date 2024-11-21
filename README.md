@@ -1,14 +1,14 @@
-# Zensync Solutions LLC. (Your Vision, Our Synced Solution)
+# Zensync Solutions (Your Vision, Our Synced Solution)
 
-## Domain - https://zensyncsolutions.com
+## Domain -
 
 ## Cloning the application
 ```
-git clone https://gitlab.com/zensync-solutions.git
+git clone https://github.com/shubh1998/Zensync.git
 ```
 
 ```
-cd zensync-solutions
+cd Zensync
 ```
 
 ## Installing Dependencies and Starting dev server

@@ -1,5 +1,5 @@
 import './portfolio.css'
-import BannerHeading from 'components/molecules/BannerHeading/index'
+import AnimatedBreadcrumbsBanner from 'components/molecules/AnimatedBreadcrumbsBanner/index'
 import { PORTFOLIO_PROJECTS } from 'constants/portfolio.constants'
 import { useHistory } from 'react-router-dom'
 
@@ -13,7 +13,7 @@ const PortfolioPage = () => {
 
   return (
     <>
-      <BannerHeading
+      <AnimatedBreadcrumbsBanner
         heading='Our Portfolio'
         subHeading='We always give our best and contribute in your vision.'
         toText='Portfolio'

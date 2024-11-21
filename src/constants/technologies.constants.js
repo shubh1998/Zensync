@@ -235,7 +235,7 @@ export const TECHNOLOGIES_TABS_WITH_TECH_STACK = [
     ]
   },
   {
-    id: 'devops-',
+    id: 'devops',
     label: 'Devops Tech',
     technologies: [
       {

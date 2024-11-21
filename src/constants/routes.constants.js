@@ -14,8 +14,6 @@ export const ROUTE_PATHS = Object.freeze({
     WEB_DEVELOPMENT: '/services/web-development',
     MOBILE_APP_DEVELOPMENT: '/services/mobile-app-development',
     UI_UX_DEVELOPMENT: '/services/ui-ux-development',
-    LIVE_CASINO_SPORTS_BOOK: '/services/live-casino-and-sportsbook',
-    CASINO_GAME_DEVELOPMENT: '/services/casino-game-development',
     MVP_DEVELOPMENT: '/services/mvp-development',
     CUSTOM_SOFTWARE_DEVELOPMENT: '/services/custom-software-development',
     HIRE_DEDICATED_DEVELOPERS: '/services/hire-dedicated-developers',
@@ -23,14 +21,11 @@ export const ROUTE_PATHS = Object.freeze({
   },
   PORTFOLIO: '/portfolio',
   HOW_WE_WORK: '/how-we-work',
-  SOLUTIONS: {
-    FOOD_ORDER_APP: '/solutions/food-order-application',
-    EMPLOYEE_MANAGEMENT_APP: '/solutions/employee-management-application',
-    TAXI_BOOKING_APP: '/solutions/taxi-booking-application',
-    IGAMING_CUSTOM_GAME_DEVELOPMENT: '/solutions/igaming-custom-betting-games-development',
-    FANTASY_APP: '/solutions/fantasy-app-development',
-    E_LEARNING_APP: '/solutions/e-learning-application',
-    LOTTERY_APP: '/solutions/lottery-application-development'
+  IGAMING: {
+    CUSTOM_GAME_DEVELOPMENT: '/igaming/custom-game-development',
+    CASINO_PLATFORM_DEVELOPMENT: '/igaming/casino-platform-development',
+    CASINO_GAME_DEVELOPMENT: '/igaming/casino-game-development',
+    SPORTSBOOK_PLATFORM_DEVELOPMENT: '/igaming/fantasy-app-development'
   },
   CONTACT_US: '/contact-us',
   TESTIMONIALS: '/testimonials',
@@ -77,16 +72,6 @@ export const NAVIGATION_OPTIONS = [
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SERVICES.LIVE_CASINO_SPORTS_BOOK,
-        name: 'Live Casino and SportsBook'
-      },
-      {
-        id: uuidV4(),
-        route: ROUTE_PATHS.SERVICES.CASINO_GAME_DEVELOPMENT,
-        name: 'Casino Game Development'
-      },
-      {
-        id: uuidV4(),
         route: ROUTE_PATHS.SERVICES.MVP_DEVELOPMENT,
         name: 'MVP Development'
       },
@@ -115,43 +100,28 @@ export const NAVIGATION_OPTIONS = [
   },
   {
     id: uuidV4(),
-    route: ROUTE_PATHS.SOLUTIONS.FOOD_ORDER_APP,
-    name: 'Solutions',
+    route: ROUTE_PATHS.IGAMING.CUSTOM_GAME_DEVELOPMENT,
+    name: 'IGaming',
     subMenus: [
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.FOOD_ORDER_APP,
-        name: 'Food Order Application'
+        route: ROUTE_PATHS.IGAMING.CASINO_PLATFORM_DEVELOPMENT,
+        name: 'Casino Platform Development'
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.EMPLOYEE_MANAGEMENT_APP,
-        name: 'Employee Management System'
+        route: ROUTE_PATHS.IGAMING.SPORTSBOOK_PLATFORM_DEVELOPMENT,
+        name: 'SportsBook Platform Development'
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.FANTASY_APP,
-        name: 'Fantasy App Development'
+        route: ROUTE_PATHS.IGAMING.CASINO_GAME_DEVELOPMENT,
+        name: 'Casino Game Development'
       },
       {
         id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.LOTTERY_APP,
-        name: 'Lottery App Development'
-      },
-      {
-        id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.TAXI_BOOKING_APP,
-        name: 'Taxi Booking App Development'
-      },
-      {
-        id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.E_LEARNING_APP,
-        name: 'E-Learning App Development'
-      },
-      {
-        id: uuidV4(),
-        route: ROUTE_PATHS.SOLUTIONS.IGAMING_CUSTOM_GAME_DEVELOPMENT,
-        name: 'IGaming Custom Game Development'
+        route: ROUTE_PATHS.IGAMING.CUSTOM_GAME_DEVELOPMENT,
+        name: 'Custom Game Development'
       }
     ]
   },

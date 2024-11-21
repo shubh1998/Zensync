@@ -1,8 +1,8 @@
 import { ROUTE_PATHS } from 'constants/routes.constants'
-import './bannerHeading.css'
+import './animatedBreadcrumbsBanner.css'
 import { Link } from 'react-router-dom'
 
-const BannerHeading = ({ from = 'Home', toText, heading, fromRoute = ROUTE_PATHS.HOME, subHeading }) => {
+const AnimatedBreadcrumbsBanner = ({ from = 'Home', toText, heading, fromRoute = ROUTE_PATHS.HOME, subHeading }) => {
   return (
     <>
       <div className='banner-heading-bg'>
@@ -30,4 +30,4 @@ const BannerHeading = ({ from = 'Home', toText, heading, fromRoute = ROUTE_PATHS
   )
 }
 
-export default BannerHeading
+export default AnimatedBreadcrumbsBanner

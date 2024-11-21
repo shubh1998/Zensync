@@ -2,12 +2,12 @@ import './whoweare.css'
 import { Link } from 'react-router-dom'
 import { AboutImage } from 'assets/images/index'
 import { ROUTE_PATHS } from 'constants/routes.constants'
-import BannerHeading from 'components/molecules/BannerHeading/index'
+import AnimatedBreadcrumbsBanner from 'components/molecules/AnimatedBreadcrumbsBanner/index'
 
 const WhoWeArePage = () => {
   return (
     <>
-      <BannerHeading heading='About' toText='About' />
+      <AnimatedBreadcrumbsBanner heading='About' toText='About' />
       <div className='container-fluid my-3'>
         <div className='container'>
           <div className='row align-items-center'>

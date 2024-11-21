@@ -3,8 +3,7 @@ import AboutUsSection from 'pages/Home/components/AboutUsSection/index'
 import ServicesSection from 'pages/Home/components/ServicesSection/index'
 import PortfolioSection from 'pages/Home/components/PortfolioSection/index'
 import RoadMapSection from 'pages/Home/components/RoadMapSection/index'
-import TechnologiesSection from 'pages/Home/components/TechnologiesSection/index'
-// import TestimonialsSection from 'pages/Home/components/TestimonialsSection/index'
+import TechnologiesWeUseSection from 'pages/Home/components/TechnologiesWeUseSection/index'
 import ContactUsSection from 'pages/Home/components/ContactUsSection/index'
 
 const Home = () => {
@@ -15,8 +14,7 @@ const Home = () => {
       <ServicesSection />
       <PortfolioSection />
       <RoadMapSection />
-      <TechnologiesSection />
-      {/* <TestimonialsSection /> */}
+      <TechnologiesWeUseSection />
       <ContactUsSection />
     </>
   )

@@ -1,5 +1,5 @@
 import './howWeWork.css'
-import BannerHeading from 'components/molecules/BannerHeading/index'
+import AnimatedBreadcrumbsBanner from 'components/molecules/AnimatedBreadcrumbsBanner/index'
 import {
   LaunchingImage, PlanningImage, SupportImage, Testing1Image,
   UserInteractionImage, WebDesignImage, WebDevelopmentImage
@@ -98,7 +98,7 @@ const howWeWorkProcessKeyPoints = [
 const HowWeWorkPage = () => {
   return (
     <div>
-      <BannerHeading heading='How We Work' toText='How We Work' />
+      <AnimatedBreadcrumbsBanner heading='How We Work' toText='How We Work' />
       <div className='container py-5'>
         <div className='py-3 mb-4 text-center'>
           <h3 className='title'>Taking your business idea to web and mobile</h3>

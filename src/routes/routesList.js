@@ -4,10 +4,16 @@ const HomePage = lazy(() => import('pages/Home/index'))
 const PortfolioPage = lazy(() => import('pages/Portfolio/index'))
 const WhoWeArePage = lazy(() => import('pages/WhoWeAre/index'))
 const CareersPage = lazy(() => import('pages/Careers/index'))
-// const TeamPage = lazy(() => import('pages/Team/index'))
 const ContactUsPage = lazy(() => import('pages/ContactUs/index'))
 const HowWeWorkPage = lazy(() => import('pages/HowWeWork/index'))
 const ComingSoonPage = lazy(() => import('pages/ComingSoon/index'))
+const WebDevelopmentServicePage = lazy(() => import('pages/Services/WebDevelopment/index'))
+const MobileAppDevelopmentServicePage = lazy(() => import('pages/Services/MobileAppDevelopment/index'))
+const UiUxDevelopmentServicePage = lazy(() => import('pages/Services/UiUxDevelopment/index'))
+const MvpDevelopmentServicePage = lazy(() => import('pages/Services/MvpDevelopment/index'))
+const CustomSoftwareDevelopmentServicePage = lazy(() => import('pages/Services/CustomSoftwareDevelopment/index'))
+const HireDedicatedDevelopersServicePage = lazy(() => import('pages/Services/HireDedicatedDevelopers/index'))
+const ECommerceDevelopmentServicePage = lazy(() => import('pages/Services/ECommerceDevelopment/index'))
 
 const routesList = [
   {
@@ -34,12 +40,6 @@ const routesList = [
     showHeader: true,
     showFooter: true
   },
-  // {
-  //   path: ROUTE_PATHS.ABOUT_US.TEAM,
-  //   component: TeamPage,
-  //   showHeader: true,
-  //   showFooter: true
-  // },
   {
     path: ROUTE_PATHS.CONTACT_US,
     component: ContactUsPage,
@@ -54,84 +54,66 @@ const routesList = [
   },
   {
     path: ROUTE_PATHS.SERVICES.WEB_DEVELOPMENT,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SERVICES.UI_UX_DEVELOPMENT,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SERVICES.CUSTOM_SOFTWARE_DEVELOPMENT,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SERVICES.MVP_DEVELOPMENT,
-    component: ComingSoonPage,
+    component: WebDevelopmentServicePage,
     showHeader: true,
     showFooter: true
   },
   {
     path: ROUTE_PATHS.SERVICES.MOBILE_APP_DEVELOPMENT,
-    component: ComingSoonPage,
+    component: MobileAppDevelopmentServicePage,
     showHeader: true,
     showFooter: true
   },
   {
-    path: ROUTE_PATHS.SERVICES.E_COMMERCE_DEVELOPMENT,
-    component: ComingSoonPage,
+    path: ROUTE_PATHS.SERVICES.UI_UX_DEVELOPMENT,
+    component: UiUxDevelopmentServicePage,
+    showHeader: true,
+    showFooter: true
+  },
+  {
+    path: ROUTE_PATHS.SERVICES.MVP_DEVELOPMENT,
+    component: MvpDevelopmentServicePage,
+    showHeader: true,
+    showFooter: true
+  },
+  {
+    path: ROUTE_PATHS.SERVICES.CUSTOM_SOFTWARE_DEVELOPMENT,
+    component: CustomSoftwareDevelopmentServicePage,
     showHeader: true,
     showFooter: true
   },
   {
     path: ROUTE_PATHS.SERVICES.HIRE_DEDICATED_DEVELOPERS,
+    component: HireDedicatedDevelopersServicePage,
+    showHeader: true,
+    showFooter: true
+  },
+  {
+    path: ROUTE_PATHS.SERVICES.E_COMMERCE_DEVELOPMENT,
+    component: ECommerceDevelopmentServicePage,
+    showHeader: true,
+    showFooter: true
+  },
+  {
+    path: ROUTE_PATHS.IGAMING.CUSTOM_GAME_DEVELOPMENT,
     component: ComingSoonPage,
     showHeader: true,
     showFooter: true
   },
   {
-    path: ROUTE_PATHS.SOLUTIONS.TAXI_BOOKING_APP,
+    path: ROUTE_PATHS.IGAMING.CASINO_GAME_DEVELOPMENT,
     component: ComingSoonPage,
     showHeader: true,
     showFooter: true
   },
   {
-    path: ROUTE_PATHS.SOLUTIONS.IGAMING_CUSTOM_GAME_DEVELOPMENT,
+    path: ROUTE_PATHS.IGAMING.CASINO_PLATFORM_DEVELOPMENT,
     component: ComingSoonPage,
     showHeader: true,
     showFooter: true
   },
   {
-    path: ROUTE_PATHS.SOLUTIONS.EMPLOYEE_MANAGEMENT_APP,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SOLUTIONS.E_LEARNING_APP,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SOLUTIONS.FANTASY_APP,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SOLUTIONS.FOOD_ORDER_APP,
-    component: ComingSoonPage,
-    showHeader: true,
-    showFooter: true
-  },
-  {
-    path: ROUTE_PATHS.SOLUTIONS.LOTTERY_APP,
+    path: ROUTE_PATHS.IGAMING.SPORTSBOOK_PLATFORM_DEVELOPMENT,
     component: ComingSoonPage,
     showHeader: true,
     showFooter: true

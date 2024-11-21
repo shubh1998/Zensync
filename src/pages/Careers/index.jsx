@@ -1,10 +1,10 @@
-import BannerHeading from 'components/molecules/BannerHeading/index'
+import AnimatedBreadcrumbsBanner from 'components/molecules/AnimatedBreadcrumbsBanner/index'
 import React from 'react'
 
 const CareersPage = () => {
   return (
     <>
-      <BannerHeading heading='Careers' toText='Careers' />
+      <AnimatedBreadcrumbsBanner heading='Careers' toText='Careers' />
 
       <div className='container-fluid my-5'>
         <div className='container'>

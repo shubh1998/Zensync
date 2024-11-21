@@ -139,8 +139,14 @@ const Footer = () => {
     <div>
       <section className='ph-getconnect-sec'>
         <div className='container'>
-          <div>
-            <h2 className='ph-getconnect-content text-center'>Kickstart Your Journey With Us Today!</h2>
+          <div className='text-center'>
+            <h2 className='ph-getconnect-content'>Kickstart Your Journey & Contact Us Today for a Free Consultation.</h2>
+            <p className='text-light'>
+              Are you ready to take your website to the next level? Whether you need a new website or an upgrade
+              to your existing one, we are here to help you create a powerful online presence.
+              You can mail us on &nbsp;
+              <a className='text-light text-decoration-underline' href='mailto:support@zensyncsolutions.com'>support@zensyncsolutions.com</a>
+            </p>
           </div>
           {/* <div className='ph-getconnect-btn'>
             <a data-bs-toggle='modal' href='#ph-have-a-project' className='ph-btn remove-errors ph-btn-white'>Contact Now <i className='fa-solid fa-arrow-right ms-2' /></a>

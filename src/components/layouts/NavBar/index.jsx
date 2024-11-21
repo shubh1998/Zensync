@@ -78,6 +78,13 @@ const NavBar = () => {
                 })
               }
             </ul>
+            <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+              <li className='nav-item'>
+                <button class='book-free-consultation-btn'>
+                  Book Free Consultation
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
